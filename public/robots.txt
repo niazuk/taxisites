@@ -1,0 +1,10 @@
+User-agent: *
+Disallow: /administration
+Disallow: /index.php
+Disallow: /css/
+Disallow: /js/
+Disallow: /svg/
+
+#TODO EDIT THESE
+sitemap: https://www./storage/images.xml
+sitemap: https://www./storage/sitemap.xml
