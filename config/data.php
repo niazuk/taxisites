@@ -1,8 +1,8 @@
 <?php
-$tel = '0800 625 0362';
+$tel = '';
 $sitename = env('APP_NAME');
-$siteloc = 'Attleborough';
-$sitecountry = 'Norwich';
+$siteloc = '';
+$sitecountry = '';
 $email = env('MAIL_USERNAME');
 return [
 
@@ -12,7 +12,7 @@ return [
         'logoalt' => "$siteloc Taxis Minibus Hire",
         'contact_number' => $tel,
         'contact_email' => $email,
-        'contact_address' => 'St Crispins Rd, Norwich, NR3 1YE',
+        'contact_address' => '',
         'fb' => '#',
         'insta' => '#',
         'gplus' => '#',
@@ -179,7 +179,7 @@ return [
                                     personally.',
         'openhours' => "24 hours a day, 7 days a week",
         //TODO enter google embed URL (just url not html)
-        'mapurl' => 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2421.3813763539147!2d1.2916996157464513!3d52.635022479836124!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47d9e3dc3803ea79%3A0x1bc2b6d82b74cb12!2sCavell+House+%26+Austin+House+Stannard+Place%2C+St+Crispins+Rd%2C+Norwich+NR3+1YE!5e0!3m2!1sen!2suk!4v1556213665633!5m2!1sen!2suk'
+        'mapurl' => ''
 
     ],
 
